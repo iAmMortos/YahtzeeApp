@@ -1,0 +1,853 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 6}, {352, 64}}",
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "frame" : "{{132, 190}, {100, 100}}",
+          "flex" : "WB",
+          "name" : "dice",
+          "custom_class" : "YahtzeeDiceView",
+          "uuid" : "E2756DE9-3335-4A2D-A57D-45A4DF56A372"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 78}, {273, 59}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "WB",
+          "border_width" : 0,
+          "frame" : "{{142, 224}, {80, 32}}",
+          "tint_color" : "RGBA(0.095912,0.095912,0.095912,1.000000)",
+          "title" : "Roll",
+          "uuid" : "1C371304-42D6-4798-98C6-BFB2780F71DC",
+          "class" : "Button",
+          "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+          "corner_radius" : 10,
+          "name" : "roll_btn",
+          "font_size" : 30
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 0}, {352, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_size" : 24,
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "04990096-5034-4A6A-8F8D-5F3AF8B0AD0F",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Top Categories",
+              "name" : "",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 40}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "name" : "",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Ones",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 40}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "font_size" : 18,
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "ones_sbtn",
+              "flex" : "LB"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 80}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Twos",
+              "name" : "",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 80}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "flex" : "LB",
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "twos_sbtn",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 120}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Threes",
+              "name" : "",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 120}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "flex" : "LB",
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "threes_sbtn",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 160}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Fours",
+              "name" : "",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 160}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "flex" : "LB",
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "fours_sbtn",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 200}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_size" : 18,
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Fives",
+              "name" : "",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 200}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "font_size" : 18,
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "fives_sbtn",
+              "flex" : "LB"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 240}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_size" : 18,
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Sixes",
+              "name" : "",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 240}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "font_size" : 18,
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "sixes_sbtn",
+              "flex" : "LB"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 280}, {95, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "RB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Top Bonus",
+              "font_size" : 18,
+              "name" : "sixes_slbl"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 280}, {71, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "LB",
+              "name" : "top_bonus_slbl",
+              "frame" : "{{107, 167}, {150, 32}}",
+              "uuid" : "75DF1E06-3742-4C1B-A4DE-072BE2F043A0",
+              "class" : "Label",
+              "alignment" : "center",
+              "text" : "0",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{119, 280}, {160, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_size" : 12,
+              "text_color" : "RGBA(0.714597,0.714597,0.714597,1.000000)",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "(Sum of above >= 63)",
+              "name" : "sixes_slbl",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 320}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Top Total",
+              "font_size" : 18,
+              "name" : "sixes_slbl"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 320}, {71, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "LB",
+              "font_name" : "<System>",
+              "frame" : "{{107, 167}, {150, 32}}",
+              "uuid" : "75DF1E06-3742-4C1B-A4DE-072BE2F043A0",
+              "class" : "Label",
+              "alignment" : "center",
+              "text" : "0",
+              "name" : "top_total_slbl",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{6, 360}, {352, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "04990096-5034-4A6A-8F8D-5F3AF8B0AD0F",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Bottom Categories",
+              "font_size" : 24,
+              "name" : ""
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 400}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Three of a Kind",
+              "name" : "",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 400}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "flex" : "LB",
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "toak_sbtn",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 440}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_size" : 18,
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Four of a Kind",
+              "name" : "",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 440}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "font_size" : 18,
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "foak_sbtn",
+              "flex" : "LB"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 520}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_size" : 18,
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Small Straight",
+              "name" : "",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 480}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "font_size" : 18,
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "full_house_sbtn",
+              "flex" : "LB"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 560}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_size" : 18,
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Large Straight",
+              "name" : "",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 520}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "font_size" : 18,
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "smstr_sbtn",
+              "flex" : "LB"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 480}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Full House",
+              "font_size" : 18,
+              "name" : ""
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 560}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "flex" : "LB",
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "lgstr_sbtn",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 600}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Chance",
+              "font_size" : 18,
+              "name" : ""
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 600}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "flex" : "LB",
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "chance_sbtn",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 640}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "name" : "",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Yahtzee",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 640}, {71, 32}}",
+            "class" : "Button",
+            "attributes" : {
+              "uuid" : "9F32ADC3-D657-4AC0-AD00-F818F0CB7FC2",
+              "font_size" : 18,
+              "corner_radius" : 10,
+              "background_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{120, 144}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "border_color" : "RGBA(0.344966,0.648148,0.111750,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "name" : "yahtzee_sbtn",
+              "flex" : "LB"
+            },
+            "selected" : true
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 720}, {263, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "name" : "",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Bottom Total",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 720}, {71, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "LB",
+              "font_size" : 18,
+              "frame" : "{{107, 167}, {150, 32}}",
+              "uuid" : "75DF1E06-3742-4C1B-A4DE-072BE2F043A0",
+              "class" : "Label",
+              "alignment" : "center",
+              "text" : "0",
+              "name" : "bot_total_slbl",
+              "font_name" : "<System>"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{16, 680}, {140, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "RB",
+              "font_name" : "<System>",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "left",
+              "text" : "Bonus Yahtzees",
+              "name" : "",
+              "font_size" : 18
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{287, 680}, {71, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "LB",
+              "font_name" : "<System>",
+              "frame" : "{{107, 167}, {150, 32}}",
+              "uuid" : "75DF1E06-3742-4C1B-A4DE-072BE2F043A0",
+              "class" : "Label",
+              "alignment" : "center",
+              "text" : "0",
+              "font_size" : 18,
+              "name" : "bonus_yahtzee_slbl"
+            },
+            "selected" : false
+          },
+          {
+            "nodes" : [
+
+            ],
+            "frame" : "{{164, 680}, {115, 32}}",
+            "class" : "Label",
+            "attributes" : {
+              "flex" : "WB",
+              "font_size" : 30,
+              "text_color" : "RGBA(0.392157,0.784314,0.000000,1.000000)",
+              "frame" : "{{85, 144}, {150, 32}}",
+              "uuid" : "6771FCA6-F984-48B2-A33F-3CB505D9F019",
+              "class" : "Label",
+              "alignment" : "right",
+              "text" : "\/\/\/\/",
+              "name" : "bonus_yahtzee_ticks",
+              "font_name" : "Avenir-Black"
+            },
+            "selected" : false
+          }
+        ],
+        "frame" : "{{0, 145}, {364, 335}}",
+        "class" : "ScrollView",
+        "attributes" : {
+          "flex" : "WH",
+          "frame" : "{{22, 80}, {320, 320}}",
+          "uuid" : "6ECB5103-060A-420B-83F7-A233C1D52741",
+          "content_height" : 770,
+          "class" : "ScrollView",
+          "content_width" : 364,
+          "name" : "categories"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{287, 78}, {71, 59}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "LB",
+          "name" : "score",
+          "frame" : "{{107, 224}, {150, 32}}",
+          "uuid" : "13637563-A510-4115-985D-5A7FDCBD0D07",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {364, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "flex" : "",
+      "custom_class" : "YahtzeeView",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : ""
+    },
+    "selected" : false
+  }
+]
